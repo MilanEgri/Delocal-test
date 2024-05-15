@@ -6,7 +6,7 @@
 ![4](/mdImages/4.png)
 ![5](/mdImages/5.png)
 
-### Szükséges Prgoramok
+### Szükséges Programok
 
 a ) MAMP, XAMP , LAMP vagy bármilyen php-apache developer pack
 
