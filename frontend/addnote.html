@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jegyzet Hozzáadás</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+<nav id="navbar"></nav>
+<div class="form-container">
+    <form id="noteForm" enctype="multipart/form-data">
+        <h3>Jegyzet hozzáadása</h3>
+        <div id="message"></div>
+        <input id="noteTitle" name="noteTitle" placeholder="Cím " required class="box">
+        <input id="noteLink" name="noteLink" placeholder="Link " class="box">
+        <textarea id="noteText" name="noteText" placeholder="Leírás "  class="box"></textarea>
+        <input type="file" id="noteImage" name="noteImage" accept="image/*" class="box">
+        <button type="submit" class="btn">Jegyzet létrehozása</button>
+    </form>
+</div>
+
+<script src="logic/navbarLogic.js"></script>
+<script src="./logic/addNoteLogic.js"></script>
+</body>
+</html>
