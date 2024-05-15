@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belépés</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+<nav id="navbar"></nav>
+<div class="form-container">
+    <form id="loginForm">
+        <h3>Belépés</h3>
+        <div id="message"></div>
+        <input type="email" id="email" name="email" placeholder="email cím" class="box" required>
+        <input type="password" id="password" name="password" placeholder="jelszó" class="box" required>
+        <button type="submit" class="btn">Belépés</button>
+        <p>Még nincs profilod? <a href="register.html">Regisztráció</a></p>
+    </form>
+</div>
+
+
+<script src="./logic/navbarLogic.js"></script>
+<script src="./logic/loginLogic.js"></script>
+</body>
+</html>
