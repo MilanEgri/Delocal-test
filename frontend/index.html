@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+<nav id="navbar">
+</nav>
+
+<div id="index-say-login" class="form-container hidden">
+    <form class="from-css-for-no-form">
+        <h3>A jegyzet hozzáadásához be kell jelentkezzned</h3>
+
+        <p>Még nincs profilod? <a href="register.html">Regisztráció</a></p>
+        <p>Már regisztráltál? <a href="login.html">Belépés</a></p>
+    </form>
+</div>
+<div id="index-logined" class="index-logined hidden">
+    <a class="btn-small" href="addnote.html">Jegyzet Hozzáadása</a>
+    <div>
+        <input class="search-input" type="text" id="filterInput" placeholder="Jegyzetek szűrése"
+               oninput="filterNotes()">
+    </div>
+    <div id="notesContainer"></div>
+
+</div>
+</body>
+<script src="./logic/indexLogic.js"></script>
+<script src="./logic/navbarLogic.js"></script>
+<script src="./logic/indexPageFilterLogic.js"></script>
+<script src="./logic/showNotesIfLogined.js"></script>
+
+</html>
